@@ -1,0 +1,5 @@
+<resources>
+    <string name="photo_camera">拍照</string>
+    <string name="photo_native">相册</string>
+    <string name="photo_cancel">取消</string>
+</resources>

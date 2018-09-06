@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--标题栏的高度-->
+    <dimen name="title_height">40dp</dimen>
+
+    <!--常用的文字大小-->
+    <dimen name="text_size_10">10sp</dimen>
+    <dimen name="text_size_12">12sp</dimen>
+    <dimen name="text_size_14">14sp</dimen>
+    <dimen name="text_size_16">16sp</dimen>
+    <dimen name="text_size_18">18sp</dimen>
+    <dimen name="text_size_20">20sp</dimen>
+    <dimen name="text_size_24">24sp</dimen>
+    <dimen name="text_size_32">32sp</dimen>
+    <dimen name="text_size_48">48sp</dimen>
+    <dimen name="text_size_64">64sp</dimen>
+
+    <!--常用的间距-->
+    <dimen name="size_2">2dp</dimen>
+    <dimen name="size_4">4dp</dimen>
+    <dimen name="size_6">6dp</dimen>
+    <dimen name="size_8">8dp</dimen>
+    <dimen name="size_12">12dp</dimen>
+    <dimen name="size_16">16dp</dimen>
+    <dimen name="size_24">24dp</dimen>
+    <dimen name="size_32">32dp</dimen>
+    <dimen name="size_48">48dp</dimen>
+    <dimen name="size_64">64dp</dimen>
+    <dimen name="size_72">72dp</dimen>
+    <dimen name="size_96">96dp</dimen>
+    <dimen name="size_128">128dp</dimen>
+    <dimen name="size_144">144dp</dimen>
+    <dimen name="size_160">160dp</dimen>
+    <dimen name="size_172">172dp</dimen>
+    <dimen name="size_224">224dp</dimen>
+    <dimen name="size_256">256dp</dimen>
+    <dimen name="size_320">320dp</dimen>
+    <dimen name="size_640">640dp</dimen>
+</resources>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rootView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:visibility="gone"
+    tools:context=".picture.PictureActivity">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alpha="0.4"
+        android:background="#000000" />
+
+    <LinearLayout
+        android:id="@+id/layContent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="bottom"
+        android:gravity="bottom"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvCamera"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/size_8"
+            android:layout_marginRight="@dimen/size_8"
+            android:background="@drawable/bg_round_top"
+            android:clickable="true"
+            android:gravity="center"
+            android:padding="@dimen/size_8"
+            android:text="@string/photo_camera"
+            android:textColor="#2196F3"
+            android:textSize="@dimen/photo_text_size" />
+
+        <TextView
+            android:id="@+id/tvNative"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/size_8"
+            android:layout_marginLeft="@dimen/size_8"
+            android:layout_marginRight="@dimen/size_8"
+            android:layout_marginTop="0.5dp"
+            android:background="@drawable/bg_round_bottom"
+            android:clickable="true"
+            android:gravity="center"
+            android:padding="@dimen/size_8"
+            android:text="@string/photo_native"
+            android:textColor="#2196F3"
+            android:textSize="@dimen/photo_text_size" />
+
+        <TextView
+            android:id="@+id/tvCancel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/size_8"
+            android:background="@drawable/bg_round"
+            android:clickable="true"
+            android:gravity="center"
+            android:padding="@dimen/size_8"
+            android:text="@string/photo_cancel"
+            android:textColor="#212121"
+            android:textSize="@dimen/photo_text_size" />
+    </LinearLayout>
+</FrameLayout>

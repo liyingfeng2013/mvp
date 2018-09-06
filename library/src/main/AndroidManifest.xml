@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.up72.library">
+
+    <!-- SD卡读写权限 -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application>
+        <!-- 照片选择页面 -->
+        <activity
+            android:name="com.up72.library.picture.PictureActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/PictureTheme" />
+        <!-- 图片裁剪 -->
+        <activity
+            android:name="com.up72.library.picture.crop.CropImageActivity"
+            android:screenOrientation="portrait" />
+    </application>
+</manifest>

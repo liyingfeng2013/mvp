@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">MVP</string>
+    <string name="refresh_normal">下拉刷新</string>
+    <string name="refresh_release">松开刷新</string>
+    <string name="refreshing">正在刷新</string>
+    <string name="refresh_done">刷新完成</string>
+    <string name="load_up">上拉加载</string>
+    <string name="load_release">松开加载</string>
+    <string name="load_more">正在加载</string>
+    <string name="load_no_more">没有更多了</string>
+</resources>

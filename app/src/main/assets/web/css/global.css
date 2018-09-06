@@ -1,0 +1,188 @@
+ @charset "utf-8";
+/* CSS Document */
+* {margin: 0;outline: 0;padding: 0;}
+body {background:#f5f5f5;font-family: "Microsoft Yahei";font-size:1rem;margin: 0;padding: 0;-webkit-overflow-scrolling:initial}
+body, form, ul, ol, li, p, h1, h2, h3, h4, h5, h6, dl, dt, dd, table, fieldset, hr, div {margin: 0;padding: 0;}
+img {border: 0 none;max-width:100%;}
+ul, ol, li {list-style-type: none;}
+:focus { outline: none; }
+a {outline: medium none;text-decoration: none;}
+a:hover {text-decoration: none;}
+em,i{font-style: normal;}
+input[type="button"], input[type="submit"], input[type="reset"] {
+-webkit-appearance: none;}
+.clearfix{zoom: 1;}
+table{border-collapse:collapse;}
+*, :after, :before {box-sizing: border-box;}
+*, :after, :before, img {-webkit-box-sizing: border-box;}
+input,button,select,textarea{font-family: "Microsoft Yahei"}
+figure{ margin:0}
+.clearfix:after{content:""; display:block; visibility:hidden; height:0; clear:both;}
+
+/*-----------------手机端去掉点击时默认边框--------------------*/
+*:focus {outline: none;}
+* { -webkit-tap-highlight-color: transparent; -webkit-appearance: none;  border:0}  
+/*-----------------字体粗细--------------------*/
+.fw-bold{ font-weight:bold;}
+.fw-normal{ font-weight:normal;}
+/*-----------------浮动定位--------------------*/
+.fl {float: left;}
+.fr {float: right;}
+.pr { position:relative;}
+.pa { position:absolute;}
+/*-----------------字体颜色--------------------*/
+.c-fff{ color:#fff}
+.c-333{ color:#333}
+.c-666{ color:#666}
+.c-000{ color:#000}
+.c-999{ color:#999}
+.c-fe620f{ color:#fe620f}
+.c-fd002a{ color:#fd002a}
+.c-169aff{ color:#169aff}
+.c-3766ff{ color:#3766ff}
+.c-b250fe{ color:#b250fe}
+.c-ff620e{ color:#ff620e}
+.c-ec5f5f{ color:#ec5f5f;}
+.c-e76898{ color:#e76898;}
+.c-e16245{ color:#e16245;}
+.c-e0b03c{ color:#e0b03c;}
+.c-5ec4b9{ color:#5ec4b9;}
+.c-f07a3b{ color:#f07a3b;}
+.c-54d104{ color:#54d104}
+.c-0d96ff{ color:#0d96ff}
+.c-ff1bec{ color:#ff1bec}
+.c-ff4c4c{ color:#ff4c4c}
+.c-80f6cb{ color:#80f6cb}
+.c-53ba50{color:#53ba50;}
+.c-40c00b{color:#40c00b;}/*微信*/
+.c-01a0e1{color:#01a0e1;}/*支付宝*/
+.c-f6a82a{color:#f6a82a;}/*快捷支付*/
+.c-f48222{color:#f48222;}/*线下打款*/
+.c-f65926{color:#f65926;}/*对公账号*/
+/*-----------------背景色--------------------*/
+.bg-fff{ background:#fff}
+.bg-ddd{ background:#ddd}
+.bg-fe620f{ background:#fe620f}
+.bg-e4a640{ background:#e4a640}
+.bg-b778fd{ background:#b778fd}
+.bg-71bffd{ background:#71bffd}
+.bg-56d1c1{ background:#56d1c1}
+.bg-ff5e63{ background:#ff5e63}
+.bg-ff793a{ background:#ff793a}
+.bg-93d838{ background:#93d838}
+.bg-ffc42a{ background:#ffc42a}
+.bg-70b0ff{ background:#70b0ff}
+.bg-b778fd{ background:#b778fd}
+.bg-fd002a{ background:#fd002a}
+.bg-ff2727{ background:#ff2727;}
+.bg-169aff{ background:#169aff}
+.bg-ff620e{background: #ff620e;}
+.bg-f5f5f5{background:#f5f5f5;}
+/*-----------------边框颜色--------------------*/
+.br5{ border-radius:0.32rem;}
+.br3{ border-radius:0.19rem;}
+.b-none{ border:none}
+.b-ced3d7{border: 1px solid #ced3d7;border-width: 1px 1px 1px 1px;-webkit-border-image: url(../images/border.gif) 2 stretch;}
+.bb-ced3d7{border: 1px solid #ced3d7;border-width: 0px 0px 1px 0px;-webkit-border-image: url(../images/border.gif) 2 stretch;}
+.bt-ced3d7{border: 1px solid #ced3d7;border-width: 1px 0px 0px 0px;-webkit-border-image: url(../images/border.gif) 2 stretch;}
+.br-ced3d7{border: 1px solid #ced3d7;border-width: 0px 1px 0px 0px;-webkit-border-image: url(../images/border.gif) 2 stretch;}
+.bl-ced3d7{border: 1px solid #ced3d7;border-width: 0px 0px 0px 1px;-webkit-border-image: url(../images/border.gif) 2 stretch;}
+.bc-ced3d7{border: 1px solid #ced3d7;border-width: 1px 0px;-webkit-border-image: url(../images/border.gif) 2 stretch;}
+
+.bl-ccc{ border-right:1px solid #ccc}
+.bb-ccc{ border-bottom:1px solid #ccc}
+/*-----------------水平垂直对齐--------------------*/
+.tl {text-align: left;}
+.tr {text-align: right;}
+.tc {text-align: center;}
+.tin-2{ text-indent:2em}
+.vt {vertical-align: top;}
+.vm {vertical-align: middle;}
+.vb {vertical-align: bottom;}
+.of-h{overflow: hidden;text-overflow: ellipsis;white-space: nowrap;}
+.cur_po{cursor: pointer;}
+/*-----------------转换元素--------------------*/
+.dis-n {display: none;}
+.dis-b {display: block;}
+.dis-ib {display: inline-block;}
+/*-----------------宽高--------------------*/
+.wb100 {width: 100%;}
+.wb96 {width: 96%;}
+.wb94 {width: 94%;}
+.wb90 {width: 90%;}
+.wb80 {width: 80%;}
+.wb40 {width: 40%;}
+.wb20 {width: 20%;}
+.hb100{ height:100%}
+/*-------------------- 边距 --------------------*/
+.m0-auto{ margin:0 auto}
+.mb3-3-0-3{ margin:3% 3% 0 3%}
+.mb3{ margin:3%}
+.mb0-3{ margin:0 3%}
+.mb10-0{ margin:10% 0}
+.mtb10{ margin-top:10%}
+.mb2-2-0{ margin:2% 2% 0}
+.mtb2{ margin-top:2%}
+.mtb3{ margin-top:3%}
+.mbb2{ margin-bottom:2%}
+.mbb3{ margin-bottom:3%}
+.mbb5{ margin-bottom:5%}
+.mlb3{ margin-left:3%}
+.mrb3{ margin-right:3%}
+.mrb10{ margin-right:10%}
+.pb3{ padding:3%}
+.pb3-0{ padding:3% 0}
+.pbb5{ padding-bottom:5%}
+.ptb30{padding-top:30%;}
+.ptb5{padding-top:5%;}
+.con-top{ margin-top:2.5rem;}
+.con-top2{ margin-top:5rem;}
+.con-top3{ margin-top:5rem;}
+.con-top4{margin-top:8.2rem;}
+.con-top5{ margin-top:2.6rem;}
+.con-top6{margin-top:10.5rem;}
+.con-top7{margin-top:12.5rem;}
+.con-top8{margin-top:15rem;}
+.con-top9{margin-top:10rem;}
+.con-top10{margin-top:9rem;}
+.con-bottom{ margin-bottom:3.44rem;}
+.con-bottom2{ margin-bottom:6.88rem;}
+@media only screen and (min-device-width: 360px){
+.con-top{ margin-top:2.625rem;}
+.con-top2{ margin-top:5.25rem;}
+.con-top3{ margin-top:6rem;}
+.con-top4{ margin-top:8.7rem;}
+.con-top5{ margin-top:2.9rem;}
+.con-top6{margin-top:11.2rem;}
+.con-top8{margin-top:15.5rem;}
+.con-top7{margin-top:13rem;}
+.con-top9{margin-top:10.5rem;}
+}
+@media only screen and (min-device-width: 375px){
+.con-top{ margin-top:2.75rem;}
+.con-top2{ margin-top:5.5rem;}
+.con-top3{ margin-top:6rem;}
+.con-top4{ margin-top:8.9rem;}
+.con-top5{ margin-top:3.1rem;}
+.con-top6{margin-top:11.5rem;}
+.con-top7{margin-top:13.5rem;}
+.con-top8{margin-top:16.3rem;}
+.con-top9{margin-top:11rem;}
+
+}
+
+@media only screen and (min-device-width: 414px){
+.con-top{ margin-top:2.875rem;}
+.con-top2{ margin-top:5.75rem;}
+.con-top3{ margin-top:6.25rem;}
+.con-top4{ margin-top:9.3rem;}
+.con-top5{ margin-top:3.4rem;}
+.con-top6{margin-top:12rem;}
+.con-top7{margin-top:14rem;}
+.con-top8{margin-top:16.8rem;}
+.con-top9{margin-top:11.5rem;}
+.con-bottom{ margin-bottom:3.57rem;}
+.con-bottom2{ margin-bottom:7.14rem;}
+}
+
+
